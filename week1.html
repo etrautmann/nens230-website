@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<title>nens230 | week1</title>
+</head>
+<body>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      tex2jax: {
+          inlineMath: [ ['$','$']],
+          displayMath:  [  ["$$", "$$"] ],
+          processEscapes: true
+      }
+  });
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("UA-44238171-1");
+    pageTracker._trackPageview();
+} catch(err) {}</script>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Course Information</div>
+<div class="menu-item"><a href="index.html">home</a></div>
+<div class="menu-item"><a href="syllabus.html">syllabus</a></div>
+<div class="menu-category">Lectures</div>
+<div class="menu-item"><a href="lecture1.html">lecture&nbsp;1:&nbsp;introduction</a></div>
+<div class="menu-category">Assignments</div>
+<div class="menu-item"><a href="week0.html">week&nbsp;0:&nbsp;getting&nbsp;matlab</a></div>
+<div class="menu-item"><a href="week1.html" class="current">week&nbsp;1:&nbsp;variables</a></div>
+<div class="menu-category">Tips &amp; Tricks</div>
+<div class="menu-category">External Links</div>
+<div class="menu-item"><a href="http://www.mathworks.com/help/matlab/">documentation</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Week 1: Variables, storing data, and simple plots</h1>
+<div id="subtitle">This week's assignment will be lighter than the average assignment, it is intended to just get you up and running with Matlab.
+In this assignment, you will play around with storing data in arrays and making some simple plots.<br />
+<b>This assignment is due on Tuesday, Sept. 30th, at 9:30am</b></div>
+</div>
+<h2>(1) Getting MATLAB</h2>
+<p>The first major assignment you have for this week is to get your hands on a copy of Matlab! You can see instructions on how to do so <a href="week0.html">here</a>. We strongly recommend having a local copy of Matlab installed, as it will be much easier and faster to do your analysis on your local machine rather than accessing Matlab over the network.</p>
+<p>If you anticipate any problems or trouble getting access to Matlab, please let the instructors know as soon as possible. We will assume going forward that you have access to Matlab.</p>
+<h2>(2) Familiarize yourself with the Matlab environment and the command line</h2>
+<ul>
+<li><p>Take note of the various windows: command line, workspace, and command history.</p>
+</li>
+<li><p>Get used to some of the commands we used in class: <tt>ls</tt>, <tt>cd</tt>, <tt>clc</tt>, <tt>clear</tt>, <tt>linspace</tt>, the color operator, and basic arithmetic</p>
+</li>
+<li><p>Check out the different plotting options (specifically, note the different colors and markers available) by use the command line <tt>help</tt> function: <tt>help plot</tt></p>
+</li>
+</ul>
+<h2>(3) Make plots of the following functions:</h2>
+<ul>
+<li><p>$y = \log(x)$ for values of $x$ ranging from 0 to 10. Use a color other than blue or black for the line.<br /></p>
+</li>
+<li><p>$y = \sin(t)\cos(t)$ using 100 linearly spaced points from $0$ to $4\pi$ (use the <tt>linspace</tt> command, and make sure to use element-wise multiplication <tt>.*</tt>)</p>
+</li>
+</ul>
+<p><i>Note: you can save plots by clicking the save icon in the plot window. Save them as a JPG or PNG to import them into other programs.</i></p>
+<h2>(4) Answer the following questions:</h2>
+<ul>
+<li><p>What will be the value of <tt>y</tt> if you run the following block of code?</p>
+</li>
+</ul>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+x = [2 5 7 9];
+y = x;
+y = 5;
+</pre></div></div>
+<ul>
+<li><p>How many arguments are <i>required</i> for the <tt>linspace</tt> function?</p>
+</li>
+</ul>
+<ul>
+<li><p>Learn about one of the following functions by reading the documentation (run <tt>doc <i>command</i></tt> or <tt>help <i>command</i></tt>) and explain what it does and what arguments it requires (you only need to pick one): <tt>min</tt>, <tt>max</tt>, <tt>bar</tt>, <tt>abs</tt>.</p>
+</li>
+</ul>
+<ul>
+<li><p>What will the following piece of code do? You can assume that <tt>x</tt> is some array (row vector) of numbers.</p>
+</li>
+</ul>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+y = (x-min(x))./max(x)
+</pre></div></div>
+<h2>Submission</h2>
+<p>You only need to submit your work for problems 3 and 4. Just make a short document with your plots from question (3) and your answers from question(4). Email this document (preferrably in a PDF format) to the staff mailing list (<a href="mailto:nens230-aut1415-staff@lists.stanford.edu">nens230-aut1415-staff@lists.stanford.edu</a>) with <tt>[Assignment 1]</tt> in the subject line.</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2014-09-22 23:28:15 PDT
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
