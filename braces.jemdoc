@@ -1,0 +1,34 @@
+# jemdoc: menu{MENU}{braces.html}, analytics{UA-44238171-1}, title{nens230 | tips & tricks}
+= Brackets, Parentheses, and Curly Braces
+
+Matlab syntax uses a combination of brackes \[\], parentheses (), and curly braces {}. It can often be confusing when it is appropriate to be using which symbols.
+
+== Parentheses ( )
+
+Parentheses are used for:
+
+~~~
+{}{table}{parentheses}
+Indexing into an array | +x(1:3)+ ||
+Defining order of operations | +(3\+4)^2+ ||
+Function inputs | +mean(x)+
+~~~
+
+== Brackets \[ \]
+Brackets are used to:
+
+~~~
+{}{table}{brackets}
+Create an array or matrix | +x = \[1 2; 3 4\]+ ||
+Delete (excise) elements | +x(x < 0) = \[\]+ ||
+Group function outputs |  +\[value index\] = max(x)+
+~~~
+
+== Curly Braces { }
+Curly braces are used to:
+
+~~~
+{}{table}{curly}
+Create a cell array | +bases = {'A', 'G', 'T', 'C'}+ ||
+Get content from a cell array | +guanine = labels{2}+
+~~~

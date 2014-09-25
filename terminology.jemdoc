@@ -1,0 +1,27 @@
+# jemdoc: menu{MENU}{terminology.html}, analytics{UA-44238171-1}, title{nens230 | tips & tricks}
+= Terminology
+
+~~~
+{Vector}
+  A list of numbers (or characters). Has /dimensions/, which you can get using the +size+ command (e.g. +size(A)+). Can either be a /row vector/, with dimensions of +(1,n)+ or a /column vector/, with dimensions of +(n,1)+.
+~~~
+
+~~~
+{Matrix}
+  A 2-dimensional array of numbers. Has dimensions which you can get using the +size+ command, but will have a size of +(m,n)+ where both +m+ and +n+ are greater than one.
+~~~
+
+~~~
+{Command / function}
+  An set of instructions that you can run. Examples of commands (or functions): +help+, +plot+, +length+, +mean+. Functions have the ability take in a number of /arguments/ (see below)
+~~~
+
+~~~
+{Argument}
+  What we call the inputs to a command or function. For example, calling the function +plot(x,y)+ means that you passed in two arguments, +x+ and +y+.
+~~~
+
+== Element-wise operations
+For arithmetic operations (multiplication and division), Matlab defaults to using /matrix/ operations. For example, if you have two arrays +x+ and +y+, and try to run +x*y+, Matlab will try to compute the /dot product/ between the arrays (if you aren't familiar with this, don't worry about it, it is from linear algebra).
+
+Instead, we often want to compute what is called /element-wise/ operations, that is, multiply (or divide) the individual elements in a pair of arrays or matrices. To do this, place a dot (+.+) before the corresponding operation. This gives us dot-multiply (+.*+) and dot-division (+./+).
