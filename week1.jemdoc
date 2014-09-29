@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{week1.html}, analytics{UA-44238171-1}, title{nens230 | week1}, mathjax
+# jemdoc: menu{MENU}{week1.html}, analytics{UA-44238171-1}, title{nens230 | week1}
 = Week 1: Variables, storing data, and simple plots
 This week's assignment will be lighter than the average assignment, it is intended to just get you up and running with Matlab.
 In this assignment, you will play around with storing data in arrays and making some simple plots.\n
@@ -15,8 +15,8 @@ If you anticipate any problems or trouble getting access to Matlab, please let t
 - Check out the different plotting options (specifically, note the different colors and markers available) by use the command line +help+ function: +help plot+
 
 == (3) Make plots of the following functions:
-- $y = \\log(x)$ for values of $x$ ranging from 0 to 10. Use a color other than blue or black for the line.\n
-- $y = \\sin(t)\\cos(t)$ using 100 linearly spaced points from $0$ to $4\\pi$ (use the +linspace+ command, and make sure to use element-wise multiplication +.*+)
+- $y = log(x)$ for values of $x$ ranging from 0 to 10. Use a color other than blue or black for the line.\n
+- $y = sin(t)cos(t)$ using 100 linearly spaced points from 0 to $4\pi$ (use the +linspace+ command, and make sure to use element-wise multiplication +.*+)
 
 /Note: you can save plots by clicking the save icon in the plot window. Save them as a JPG or PNG to import them into other programs./
 
