@@ -1,5 +1,5 @@
 ## NENS 230: Analysis Techniques for the Biosciences Using MATLAB
 
-Made with [jemdoc](http://jemdoc.jaboc.net/).
+Made with [jemdoc+mathjax](https://github.com/wsshin/jemdoc_mathjax).
 
-To compile: `jemdoc *.jemdoc`
+To compile: `jemdoc -c mysite.conf *.jemdoc`
