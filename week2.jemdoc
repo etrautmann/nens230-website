@@ -1,0 +1,18 @@
+# jemdoc: menu{MENU}{week2.html}, analytics{UA-44238171-1}, title{nens230 | week2}
+= Week 2: Data import, basic manipulation, and basic plotting
+In this assignment, you will play around with importing data, manipulating arrays, creating some simple plots, and using the +fprintf+ command.\n
+*This assignment is due on Tuesday, Oct. 7th, at 9:30am*
+
+== Files
+The description of the assignment can be found here:
+[files/assignment2/assignment2.pdf Assignment 2 (PDF)]
+
+You can download a zip archive of all the files you'll need, as well as starter code, here:
+[files/assignment2/assignment2-files.zip Assignment 2 Files (zip)]
+
+== Submission
+Email your code and figures (output of the +publish+ command) to the staff mailing list ([nens230-aut1415-staff@lists.stanford.edu]) with +\[Assignment 2\]+ in the subject line.
+
+#== Solution
+#The solution can be downloaded here:\n
+#[files/assignment2/assignment2solution.m Assignment 2 Solution]
