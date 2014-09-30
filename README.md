@@ -3,3 +3,5 @@
 Made with [jemdoc+mathjax](https://github.com/wsshin/jemdoc_mathjax).
 
 To compile: `jemdoc -c mysite.conf *.jemdoc`
+
+MIT Licensed
