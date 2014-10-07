@@ -5,7 +5,7 @@
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>nens230 | tips & tricks</title>
+<title>nens230 | lecture3</title>
 </head>
 <body>
 <script type="text/javascript">
@@ -26,45 +26,25 @@ try {
 <div class="menu-category">Lectures</div>
 <div class="menu-item"><a href="lecture1.html">lecture&nbsp;1:&nbsp;introduction</a></div>
 <div class="menu-item"><a href="lecture2.html">lecture&nbsp;2:&nbsp;arrays&nbsp;and&nbsp;data</a></div>
-<div class="menu-item"><a href="lecture3.html">lecture&nbsp;3:&nbsp;loops&nbsp;and&nbsp;control&nbsp;flow</a></div>
+<div class="menu-item"><a href="lecture3.html" class="current">lecture&nbsp;3:&nbsp;loops&nbsp;and&nbsp;control&nbsp;flow</a></div>
 <div class="menu-category">Assignments</div>
 <div class="menu-item"><a href="week0.html">week&nbsp;0:&nbsp;getting&nbsp;matlab</a></div>
 <div class="menu-item"><a href="week1.html">week&nbsp;1:&nbsp;variables</a></div>
 <div class="menu-item"><a href="week2.html">week&nbsp;2:&nbsp;data&nbsp;manipulation</a></div>
 <div class="menu-item"><a href="week3.html">week&nbsp;3:&nbsp;loops&nbsp;and&nbsp;control&nbsp;flow</a></div>
 <div class="menu-category">Tips &amp; Tricks</div>
-<div class="menu-item"><a href="terminology.html" class="current">Terminology</a></div>
+<div class="menu-item"><a href="terminology.html">Terminology</a></div>
 <div class="menu-item"><a href="braces.html">Brackets,&nbsp;Parentheses,&nbsp;and&nbsp;Curly&nbsp;Braces</a></div>
 <div class="menu-category">External Links</div>
 <div class="menu-item"><a href="http://www.mathworks.com/help/matlab/">documentation</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
-<h1>Terminology</h1>
+<h1>10/07/13 Lecture 3: Logic, loops and control flow</h1>
 </div>
-<div class="infoblock">
-<div class="blocktitle">Vector</div>
-<div class="blockcontent">
-<p>A list of numbers (or characters). Has <i>dimensions</i>, which you can get using the <tt>size</tt> command (e.g. <tt>size(A)</tt>). Can either be a <i>row vector</i>, with dimensions of <tt>(1,n)</tt> or a <i>column vector</i>, with dimensions of <tt>(n,1)</tt>.</p>
-</div></div>
-<div class="infoblock">
-<div class="blocktitle">Matrix</div>
-<div class="blockcontent">
-<p>A 2-dimensional array of numbers. Has dimensions which you can get using the <tt>size</tt> command, but will have a size of <tt>(m,n)</tt> where both <tt>m</tt> and <tt>n</tt> are greater than one.</p>
-</div></div>
-<div class="infoblock">
-<div class="blocktitle">Command / function</div>
-<div class="blockcontent">
-<p>An set of instructions that you can run. Examples of commands (or functions): <tt>help</tt>, <tt>plot</tt>, <tt>length</tt>, <tt>mean</tt>. Functions have the ability take in a number of <i>arguments</i> (see below)</p>
-</div></div>
-<div class="infoblock">
-<div class="blocktitle">Argument</div>
-<div class="blockcontent">
-<p>What we call the inputs to a command or function. For example, calling the function <tt>plot(x,y)</tt> means that you passed in two arguments, <tt>x</tt> and <tt>y</tt>.</p>
-</div></div>
-<h2>Element-wise operations</h2>
-<p>For arithmetic operations (multiplication and division), Matlab defaults to using <i>matrix</i> operations. For example, if you have two arrays <tt>x</tt> and <tt>y</tt>, and try to run <tt>x*y</tt>, Matlab will try to compute the <i>dot product</i> between the arrays (if you aren't familiar with this, don't worry about it, it is from linear algebra).</p>
-<p>Instead, we often want to compute what is called <i>element-wise</i> operations, that is, multiply (or divide) the individual elements in a pair of arrays or matrices. To do this, place a dot (<tt>.</tt>) before the corresponding operation. This gives us dot-multiply (<tt>.*</tt>) and dot-division (<tt>./</tt>).</p>
+<p>In this lecture, we covered branching to control program flow and loops to iterate program chunks.</p>
+<h2>Lecture slides</h2>
+<p><a href="slides/week3.pdf" target=&ldquo;blank&rdquo;>Link to slides (PDF)</a></p>
 <div id="footer">
 <div id="footer-text">
 Page generated 2014-10-07 09:01:19 PDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.

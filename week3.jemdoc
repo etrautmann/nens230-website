@@ -1,0 +1,19 @@
+# jemdoc: menu{MENU}{week3.html}, analytics{UA-44238171-1}, title{nens230 | week3}
+= Week 3: Logic, loops and control flow
+In this assignment, you will analyze fluorescence imaging data using +for+ loops and +if/else+
+branching techniques.\n
+*This assignment is due on Tuesday, 14 Oct at 9:30am*
+
+== Files
+The description of the assignment can be found here:
+[files/assignment3/assignment3.pdf Assignment 3 (PDF)]
+
+You can download a zip archive of all the files you'll need, as well as starter code, here:
+[files/assignment3/assignment3-files.zip Assignment 3 Files (zip)]
+
+== Submission
+Email your code and figures (output of the +publish+ command) to the staff mailing list ([nens230-aut1415-staff@lists.stanford.edu]) with +\[Assignment 3\]+ in the subject line.
+
+#== Solution
+#The solution can be downloaded here:\n
+#[files/assignment2/assignment3_soln.m Assignment 3 Solution]
