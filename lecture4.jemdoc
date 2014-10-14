@@ -1,0 +1,13 @@
+# jemdoc: menu{MENU}{lecture4.html}, analytics{UA-44238171-1}, title{nens230 | lecture4}
+= 10\/14\/13 Lecture 4: Plotting and Graphics
+
+In this lecture, we covered the basics of creating graphics and data visualizations using Matlab.
+
+== Lecture slides
+[slides/week4.pdf Link to slides (PDF)]
+
+My anti-aliasing script (myaa):
+[files/lecture4/myaa.m myaa.m]
+
+Lecture demo on customizing graphs with code:
+[files/lecture4/lecture4demo.m lecture4demo.m]

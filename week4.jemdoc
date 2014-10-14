@@ -1,0 +1,18 @@
+# jemdoc: menu{MENU}{week4.html}, analytics{UA-44238171-1}, title{nens230 | week4}
+= Week 4: Data Visualization
+In this assignment, you will explore making data visualizations in Matlab.\n
+*This assignment is due on Tuesday, Oct 21 at 9:30am*
+
+== Files
+The description of the assignment can be found here:
+[files/assignment4/assignment4.pdf Assignment 4 (PDF)]
+
+You can download a zip archive of the +.mat+ data files you'll need here:
+[files/assignment4/assignment4-files.zip Assignment 4 Files (zip)]
+
+== Submission
+Email your code and figures as a zip archive to the staff mailing list ([nens230-aut1415-staff@lists.stanford.edu]) with +\[Assignment 4\]+ in the subject line.
+
+#== Solution
+#The solution can be downloaded here:\n
+#[files/assignment2/assignment3_soln.m Assignment 3 Solution]
