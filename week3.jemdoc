@@ -12,8 +12,93 @@ You can download a zip archive of all the files you'll need, as well as starter 
 [files/assignment3/assignment3-files.zip Assignment 3 Files (zip)]
 
 == Submission
-Email your code and figures (output of the +publish+ command) to the staff mailing list ([nens230-aut1415-staff@lists.stanford.edu]) with +\[Assignment 3\]+ in the subject line.
+Email your code and figures (output of the +publish+ command) to the staff mailing list 
+([nens230-aut1415-staff@lists.stanford.edu]) with +\[Assignment 3\]+ in the subject line.
 
-#== Solution
-#The solution can be downloaded here:\n
-#[files/assignment2/assignment3_soln.m Assignment 3 Solution]
+== Solution
+The solution can be downloaded here:
+[files/assignment3/assignment3_soln.m Assignment 3 Solution]
+
+== A comment on part 2
+
+After grading assignment 3, we've noticed a very common mistake in part 2, which we
+wanted to bring to everyone's attention.
+
+In section 2, you’re asked to compute the FRET ratio for an entire image. You must do this by 
+indexing into the 3-dimensional image array to select the red channel (first page) and 
+green channel (second page). We can do this with:
+
+~~~
+{}{}
+red_channel =  img(:, :, 1);
+green_channel = img(:, :, 2);
+~~~
+
+This part is all gravy, and no one had a problem here. Next you have to compute the sum or 
+average of each channel, and this is where a lot of people made a mistake. Many of you computed 
+the sum of the whole image by doing:
+
+~~~
+{}{}
+red_channel_sum = sum(red_channel);
+green_channel_sum = sum(green_channel);
+~~~
+
+But...+red\_channel+ and +green\_channel+ *are 2D arrays, not scalars*, with size +\[1 256\]+! 
+Reading the help for the +sum+ function, we see that, when given a 2D array, it computes a 
+sum /for each column/, summing up all the rows of that column. This means that +red\_channel\_sum+ 
+and +green\_channel\_sum+ are arrays as well, not scalars! So in the next step, we’re supposed 
+to compute the FRET ratio, which could be done by:
+
+~~~
+{}{}
+fret_ratio = red_channel_sum / (red_channel_sum + green_channel_sum);
+~~~
+
+But the numerator and denominator are arrays, so what is that division operator -- the +\/+ -- doing, 
+if not scalar division? It turns out it’s doing a form of division that only really makes sense on 
+matrices, or 2D arrays. (Have a look at the help for the +mldivide+ function, if you’re curious.) 
+Luckily for everyone, the arithmetic works out to be exactly the same as if you had used true scalar
+division operator (+.\/+), /but only in this case/. The matrix division will almost certainly 
+not work in general, and it’s definitely not what you meant to do.
+
+What should we have done? The sums need to be computed differently! We want the sum of /all/ elements 
+in the red and green channels, not the sum for each column. To get that, we have a couple of options.
+
+. We can call +sum+ twice, once to get the sum for each column and once to sum that resulting row 
+vector. This looks like:
+
+~~~
+{}{}
+red_channel_sum = sum(sum(red_channel));
+~~~
+
+. The alternative possibility--which is sneaky and cool--is to force these 2D matrices to be 
+1D arrays before we sum them. We can do this with a nice use of colon-indexing, and looks like:
+
+~~~
+{}{}
+red_channel_sum = sum(red_channel(:));
+~~~
+
+And this brings us to the final point in this comment: *always use +.\/+ (dot-slash) when you want 
+scalar division*. You might think this is a weird take-home lesson, given that we were just talking 
+about summing 2D arrays versus 1D arrays. But let’s look at what would have happened if we had used 
+the /incorrect/ +sum+ but the /correct/ division operator, the one with the dot before the slash.
+
+When computing the FRET ratio for the image, we would have done this:
+
+~~~
+{}{}
+fret_ratio = red_channel_sum ./ (red_channel_sum + green_channel_sum); % NOTE THE DOT BEFORE THE SLASH
+~~~
+
+This will do element-wise division of two arrays of size +\[1 256\]+, meaning the output, +fret_ratio+, 
+would be that size as well. But you know you were looking for a single number for each image, so the 
+fact that we get 256-element array out would be pretty suspicious. And anytime your code isn’t doing 
+what you expect, that’s a good thing when you’re trying to debug. In this case, it would have led you
+to investigate why the arrays +red\_channel\_sum+ and +green\_channel\_sum+ are the wrong size, which
+would have led you back to the +sum+ function, which is the ultimate cause of the problem.
+
+Please feel free to email the instructors
+([nens230-aut1415-staff@lists.stanford.edu]) if you have any questions about these concepts.

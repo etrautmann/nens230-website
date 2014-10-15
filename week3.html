@@ -53,10 +53,85 @@ branching techniques.<br />
 <p>You can download a zip archive of all the files you'll need, as well as starter code, here:
 <a href="files/assignment3/assignment3-files.zip" target=&ldquo;blank&rdquo;>Assignment 3 Files (zip)</a></p>
 <h2>Submission</h2>
-<p>Email your code and figures (output of the <tt>publish</tt> command) to the staff mailing list (<a href="mailto:nens230-aut1415-staff@lists.stanford.edu" target=&ldquo;blank&rdquo;>nens230-aut1415-staff@lists.stanford.edu</a>) with <tt>[Assignment 3]</tt> in the subject line.</p>
+<p>Email your code and figures (output of the <tt>publish</tt> command) to the staff mailing list 
+(<a href="mailto:nens230-aut1415-staff@lists.stanford.edu" target=&ldquo;blank&rdquo;>nens230-aut1415-staff@lists.stanford.edu</a>) with <tt>[Assignment 3]</tt> in the subject line.</p>
+<h2>Solution</h2>
+<p>The solution can be downloaded here:
+<a href="files/assignment3/assignment3_soln.m" target=&ldquo;blank&rdquo;>Assignment 3 Solution</a></p>
+<h2>A comment on part 2</h2>
+<p>After grading assignment 3, we've noticed a very common mistake in part 2, which we
+wanted to bring to everyone's attention.</p>
+<p>In section 2, you’re asked to compute the FRET ratio for an entire image. You must do this by 
+indexing into the 3-dimensional image array to select the red channel (first page) and 
+green channel (second page). We can do this with:</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+red_channel =  img(:, :, 1);
+green_channel = img(:, :, 2);
+</pre></div></div>
+<p>This part is all gravy, and no one had a problem here. Next you have to compute the sum or 
+average of each channel, and this is where a lot of people made a mistake. Many of you computed 
+the sum of the whole image by doing:</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+red_channel_sum = sum(red_channel);
+green_channel_sum = sum(green_channel);
+</pre></div></div>
+<p>But&hellip;<tt>red_channel</tt> and <tt>green_channel</tt> <b>are 2D arrays, not scalars</b>, with size <tt>[1 256]</tt>! 
+Reading the help for the <tt>sum</tt> function, we see that, when given a 2D array, it computes a 
+sum <i>for each column</i>, summing up all the rows of that column. This means that <tt>red_channel_sum</tt> 
+and <tt>green_channel_sum</tt> are arrays as well, not scalars! So in the next step, we’re supposed 
+to compute the FRET ratio, which could be done by:</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+fret_ratio = red_channel_sum / (red_channel_sum + green_channel_sum);
+</pre></div></div>
+<p>But the numerator and denominator are arrays, so what is that division operator &ndash; the <tt>/</tt> &ndash; doing, 
+if not scalar division? It turns out it’s doing a form of division that only really makes sense on 
+matrices, or 2D arrays. (Have a look at the help for the <tt>mldivide</tt> function, if you’re curious.) 
+Luckily for everyone, the arithmetic works out to be exactly the same as if you had used true scalar
+division operator (<tt>./</tt>), <i>but only in this case</i>. The matrix division will almost certainly 
+not work in general, and it’s definitely not what you meant to do.</p>
+<p>What should we have done? The sums need to be computed differently! We want the sum of <i>all</i> elements 
+in the red and green channels, not the sum for each column. To get that, we have a couple of options.</p>
+<ol>
+<li><p>We can call <tt>sum</tt> twice, once to get the sum for each column and once to sum that resulting row 
+vector. This looks like:</p>
+</li>
+</ol>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+red_channel_sum = sum(sum(red_channel));
+</pre></div></div>
+<ol>
+<li><p>The alternative possibility&ndash;which is sneaky and cool&ndash;is to force these 2D matrices to be 
+1D arrays before we sum them. We can do this with a nice use of colon-indexing, and looks like:</p>
+</li>
+</ol>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+red_channel_sum = sum(red_channel(:));
+</pre></div></div>
+<p>And this brings us to the final point in this comment: <b>always use <tt>./</tt> (dot-slash) when you want 
+scalar division</b>. You might think this is a weird take-home lesson, given that we were just talking 
+about summing 2D arrays versus 1D arrays. But let’s look at what would have happened if we had used 
+the <i>incorrect</i> <tt>sum</tt> but the <i>correct</i> division operator, the one with the dot before the slash.</p>
+<p>When computing the FRET ratio for the image, we would have done this:</p>
+<div class="codeblock">
+<div class="blockcontent"><pre>
+fret_ratio = red_channel_sum ./ (red_channel_sum + green_channel_sum); % NOTE THE DOT BEFORE THE SLASH
+</pre></div></div>
+<p>This will do element-wise division of two arrays of size <tt>[1 256]</tt>, meaning the output, <tt>fret_ratio</tt>, 
+would be that size as well. But you know you were looking for a single number for each image, so the 
+fact that we get 256-element array out would be pretty suspicious. And anytime your code isn’t doing 
+what you expect, that’s a good thing when you’re trying to debug. In this case, it would have led you
+to investigate why the arrays <tt>red_channel_sum</tt> and <tt>green_channel_sum</tt> are the wrong size, which
+would have led you back to the <tt>sum</tt> function, which is the ultimate cause of the problem.</p>
+<p>Please feel free to email the instructors
+(<a href="mailto:nens230-aut1415-staff@lists.stanford.edu" target=&ldquo;blank&rdquo;>nens230-aut1415-staff@lists.stanford.edu</a>) if you have any questions about these concepts.</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2014-10-14 02:13:13 PDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2014-10-15 14:49:51 PDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
