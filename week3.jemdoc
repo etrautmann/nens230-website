@@ -44,7 +44,7 @@ red_channel_sum = sum(red_channel);
 green_channel_sum = sum(green_channel);
 ~~~
 
-But...+red\_channel+ and +green\_channel+ *are 2D arrays, not scalars*, with size +\[1 256\]+! 
+But...+red\_channel\_sum+ and +green\_channel\_sum+ *are now 2D arrays, not scalars*, with size +\[1 256\]+! 
 Reading the help for the +sum+ function, we see that, when given a 2D array, it computes a 
 sum /for each column/, summing up all the rows of that column. This means that +red\_channel\_sum+ 
 and +green\_channel\_sum+ are arrays as well, not scalars! So in the next step, we’re supposed 

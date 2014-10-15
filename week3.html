@@ -77,7 +77,7 @@ the sum of the whole image by doing:</p>
 red_channel_sum = sum(red_channel);
 green_channel_sum = sum(green_channel);
 </pre></div></div>
-<p>But&hellip;<tt>red_channel</tt> and <tt>green_channel</tt> <b>are 2D arrays, not scalars</b>, with size <tt>[1 256]</tt>! 
+<p>But&hellip;<tt>red_channel_sum</tt> and <tt>green_channel_sum</tt> <b>are now 2D arrays, not scalars</b>, with size <tt>[1 256]</tt>! 
 Reading the help for the <tt>sum</tt> function, we see that, when given a 2D array, it computes a 
 sum <i>for each column</i>, summing up all the rows of that column. This means that <tt>red_channel_sum</tt> 
 and <tt>green_channel_sum</tt> are arrays as well, not scalars! So in the next step, we’re supposed 
@@ -131,7 +131,7 @@ would have led you back to the <tt>sum</tt> function, which is the ultimate caus
 (<a href="mailto:nens230-aut1415-staff@lists.stanford.edu" target=&ldquo;blank&rdquo;>nens230-aut1415-staff@lists.stanford.edu</a>) if you have any questions about these concepts.</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2014-10-15 14:49:51 PDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2014-10-15 15:20:35 PDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
