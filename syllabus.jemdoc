@@ -26,17 +26,16 @@ Coursework will consist of a weekly programming assignment that will be due at t
 - Week 3 (10/7) Control Flow
    -- Logicals, control flow (for and while loops), branching (if statements)
    -- Assignment 3: FRET image analysis with looped DNA kinetics
-- Week 4 (10/14) Programming Techniques
-   -- Debugging, best practices, optimizing for speed
-   -- Assignment 4: TBD
-- Week 5 (10/21) Plotting I
+- Week 4 (10/14) Plotting I
    -- 2D and 3D graphs, objects and handles, subplots, displaying images
+   -- Assignment 4: Data visualization
+- Week 5 (10/21) Advanced data structures
+   -- Cell arrays, structures, and debugging
    -- Assignment 5: Neural spike rasters and event histograms
 - Week 6 (10/28) Best Practices
    -- Tips on writing clean, readable code
-   -- Debugging tips
    -- Assignment 6: writing maintainable code
-- Week 7 (11/4) Signal and Image Processing
+- Week 7 (11/4) Signal and Image Processing +Note: in LKSC 101+
    -- Smoothing, filtering, Fourier analysis
    -- Filtering images, extracting regions of interest
    -- Assignment 7: Frequency and Image analysis
@@ -48,4 +47,3 @@ Coursework will consist of a weekly programming assignment that will be due at t
    -- Assignment 7: Hypothesis testing
 - Week 11 (11/25) Thanksgiving break, no class
 - Week 12 (12/2) Advanced Topics
-   -- Variable function input, Psychophysics and Image processing toolbox
