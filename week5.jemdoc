@@ -1,0 +1,14 @@
+# jemdoc: menu{MENU}{week5.html}, analytics{UA-44238171-1}, title{nens230 | week5}
+= Week 5: Cell array and struct arrays
+In this assignment, you will write a function and learn to use cell arrays and structure arrays to organize and store complex data.
+
+== Files
+The description of the assignment can be found here:
+[files/assignment5/assignment5.pdf Assignment 5 (PDF)]
+
+You can download a zip archive of the +.mat+ data files you'll need here:
+[files/assignment5/assignment5-files.zip Assignment 5 Files (zip)]
+
+== Submission
+Email your code and figures as a zip archive to the staff mailing list ([nens230-aut1415-staff@lists.stanford.edu]) with +\[Assignment 5\]+ in the subject line.
+

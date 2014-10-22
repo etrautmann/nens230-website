@@ -1,0 +1,7 @@
+# jemdoc: menu{MENU}{lecture5.html}, analytics{UA-44238171-1}, title{nens230 | lecture5}
+= 10\/21\/14 Lecture 5: Cell arrays, struct arrays, and debugging
+
+In this lecture, we covered several new data types and methods for debugging.
+
+== Lecture slides
+[slides/week5.pdf Link to slides (PDF)]
