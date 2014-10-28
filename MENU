@@ -8,6 +8,7 @@ Lectures
     lecture 3: loops and control flow      [lecture3.html]
     lecture 4: plotting and graphics       [lecture4.html]
     lecture 5: cell arrays, struct arrays, and debugging [lecture5.html]
+	lecture 6: software best practices		[lecture6.html]
 
 Assignments
     week 0: getting matlab      [week0.html]
@@ -16,6 +17,7 @@ Assignments
     week 3: loops and control flow   [week3.html]
     week 4: data visualization   [week4.html]
     week 5: cell arrays and struct arrays [week5.html]
+	week 6: software best practices [week6.html]
 
 Tips & Tricks
     Terminology                                 [terminology.html]
@@ -23,3 +25,5 @@ Tips & Tricks
 
 External Links
     documentation               [http://www.mathworks.com/help/matlab/]
+	Loren on the Art of Matlab 	[http://blogs.mathworks.com/loren/]
+	Undocumented Matlab			[http://www.undocumentedmatlab.com/]

@@ -1,0 +1,8 @@
+# jemdoc: menu{MENU}{lecture6.html}, analytics{UA-44238171-1}, title{nens230 | lecture6}
+= 10\/28\/14 Lecture 6: Software best practices
+
+In this lecture, we'll talk about some of the most common and important best
+practices for writing clean, efficient, and maintainable code.
+
+== Lecture slides
+[slides/week6.pdf Link to slides (PDF)]
