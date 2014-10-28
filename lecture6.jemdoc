@@ -6,3 +6,7 @@ practices for writing clean, efficient, and maintainable code.
 
 == Lecture slides
 [slides/week6.pdf Link to slides (PDF)]
+
+== Lecture files
+An example of poorly-written code can be found [files/lecture6/tree_obfuscated.m here]. 
+A cleaned up version is [files/lecture6/tree_clean.m here].
