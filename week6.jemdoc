@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{week5.html}, analytics{UA-44238171-1}, title{nens230 | week5}
+# jemdoc: menu{MENU}{week6.html}, analytics{UA-44238171-1}, title{nens230 | week6}
 = Week 6: Software best practices
 In this assignment, you will learn to read and refactor someone else's code, learn to find
 bugs in inherited code, and develop your best practices-fu in writing a nice plotting function.

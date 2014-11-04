@@ -1,0 +1,14 @@
+# jemdoc: menu{MENU}{week7.html}, analytics{UA-44238171-1}, title{nens230 | week7}
+= Week 7: Signal and Image processing
+In this assignment, you will with some imaging, EEG, and EKG data to extract information from real world signals.
+
+== Files
+The description of the assignment can be found here:
+[files/assignment7/assignment7.pdf Assignment 7 (PDF)]
+
+You can download a zip archive of the +.mat+ data files you'll need here:
+[files/assignment7/assignment7-files.zip Assignment 7 Files (zip)]
+
+== Submission
+Email your code and figures as a zip archive to the staff mailing list ([nens230-aut1415-staff@lists.stanford.edu]) with +\[Assignment 7\]+ in the subject line.
+

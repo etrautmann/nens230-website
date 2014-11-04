@@ -1,0 +1,10 @@
+# jemdoc: menu{MENU}{lecture7.html}, analytics{UA-44238171-1}, title{nens230 | lecture7}
+= 11\/4\/14 Lecture 7: Software best practices
+
+In this lecture, we'll talk about the basics of signal and image processing: how to visualize signals in the time and frequency domains, filter 1D signals and 2D images, and read and write audio files.
+
+== Lecture slides
+[slides/week7.pdf Link to slides (PDF)]
+
+== Lecture files
+[files/lecture7/week7-files.zip Lecture files (zip)]
