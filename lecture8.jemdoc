@@ -1,0 +1,10 @@
+# jemdoc: menu{MENU}{lecture8.html}, analytics{UA-44238171-1}, title{nens230 | lecture8}
+= 11\/11\/14 Lecture 8: Statistics and Dimensionality Reduction
+
+In this lecture, we'll cover a background of basic probability and statistics, then cover hypothesis testing, and finally dimensionality reduction using principle components analysis. 
+
+== Lecture slides
+[slides/week8.pdf Link to slides (PDF)]
+
+== Lecture files
+[files/lecture8/week8-files.zip Lecture files (zip)]
