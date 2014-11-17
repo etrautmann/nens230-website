@@ -10,6 +10,7 @@ Lectures
     lecture 5: cell arrays, struct arrays, and debugging [lecture5.html]
 	lecture 6: software best practices		[lecture6.html]
 	lecture 7: signal and image processing		[lecture7.html]
+    lecture 8: statistics and dimensionality reduction      [lecture8.html]
 
 Assignments
     week 0: getting matlab      [week0.html]
@@ -20,6 +21,7 @@ Assignments
     week 5: cell arrays and struct arrays [week5.html]
 	week 6: software best practices [week6.html]
 	week 7: image and signal analysis [week7.html]
+    week 8: statistics and dimensionality reduction      [week8.html]
 
 Tips & Tricks
     Terminology                                 [terminology.html]
