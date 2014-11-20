@@ -1,0 +1,11 @@
+# jemdoc: menu{MENU}{lecture9.html}, analytics{UA-44238171-1}, title{nens230 | lecture9}
+= 11\/20\/14 Lecture 9: Regression and curve fitting
+
+This lecture will introduce Matlab's functions and methods for performing linear and 
+nonlinear regression, as well as curve fitting.
+
+== Lecture slides
+[slides/week9.pdf Link to slides (PDF)]
+
+== Lecture files
+[files/lecture9/regression-examples.zip Regression example code (zip)]
