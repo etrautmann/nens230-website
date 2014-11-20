@@ -1,0 +1,14 @@
+# jemdoc: menu{MENU}{finalproject.html}, analytics{UA-44238171-1}, title{nens230 | final project}
+= Final Project
+For your final project, we want you to explore on your own and develop an independent project using Matlab. This should consist of a complete data analysis pipeline, where you import a dataset, analyze it, generate figures to demonstrate your results and convey those results and your conclusions in a concise write-up.
+
+== Files
+The description of the final project can be found here:
+[files/project/final.pdf Final Project Guidelines (PDF)]
+
+You can download an example write-up here:
+[files/project/example_report.pdf Example final proejct report (PDF)]
+
+== Submission
+Email your write-up, code, and dataset as a zip archive to the staff mailing list ([nens230-aut1415-staff@lists.stanford.edu]) with +\[Final Project\]+ in the subject line.
+
