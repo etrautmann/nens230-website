@@ -4,29 +4,29 @@ Course Information
 
 Lectures
     lecture 1: introduction         [lecture1.html]
-    lecture 2: arrays and data      [lecture2.html]
-    lecture 3: loops and control flow      [lecture3.html]
-    lecture 4: plotting and graphics       [lecture4.html]
-    lecture 5: cell arrays, struct arrays, and debugging [lecture5.html]
-	lecture 6: software best practices		[lecture6.html]
-	lecture 7: signal and image processing		[lecture7.html]
-    lecture 8: statistics and dimensionality reduction      [lecture8.html]
-	lecture 9: regression and curve fitting		[lecture9.html]
-	lecture 10: wrap-up and version control		[lecture10.html]
+#    lecture 2: arrays and data      [lecture2.html]
+#    lecture 3: loops and control flow      [lecture3.html]
+#    lecture 4: plotting and graphics       [lecture4.html]
+#    lecture 5: cell arrays, struct arrays, and debugging [lecture5.html]
+#	lecture 6: software best practices		[lecture6.html]
+#	lecture 7: signal and image processing		[lecture7.html]
+#    lecture 8: statistics and dimensionality reduction      [lecture8.html]
+#	lecture 9: regression and curve fitting		[lecture9.html]
+#	lecture 10: wrap-up and version control		[lecture10.html]
 
 Assignments
     week 0: getting matlab      [week0.html]
-    week 1: variables           [week1.html]
-    week 2: data manipulation   [week2.html]
-    week 3: loops and control flow   [week3.html]
-    week 4: data visualization   [week4.html]
-    week 5: cell arrays and struct arrays [week5.html]
-	week 6: software best practices [week6.html]
-	week 7: image and signal analysis [week7.html]
-    week 8: statistics and dimensionality reduction      [week8.html]
+#    week 1: variables           [week1.html]
+#    week 2: data manipulation   [week2.html]
+#    week 3: loops and control flow   [week3.html]
+#    week 4: data visualization   [week4.html]
+#    week 5: cell arrays and struct arrays [week5.html]
+#    week 6: software best practices [week6.html]
+#    week 7: image and signal analysis [week7.html]
+#    week 8: statistics and dimensionality reduction      [week8.html]
 
 Final Project
-  Final Project   [finalproject.html]
+#  Final Project   [finalproject.html]
 
 Tips & Tricks
     Terminology                                 [terminology.html]
