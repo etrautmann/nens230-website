@@ -1,7 +1,7 @@
 # jemdoc: menu{MENU}{lecture1.html}, analytics{UA-44238171-1}, title{nens230 | lecture 1}
-= 9\/23\/14 Lecture 1: Introduction
+= 9\/22\/15 Lecture 1: Introduction
 
-In this lecture, we covered some basic commands, storing data in arrays, indexing, and building arrays with the colon operator and linspace.
+In this lecture, we introduced why MATLAB is useful and important for the life sciences, and went over the structure and requirements of the course. We introduced the MATLAB integrated development environment (IDE), and covered some basic commands, storing data in arrays, indexing, and building arrays with the colon operator and linspace.
 
 == Lecture Slides
 [slides/week1.pdf Link to slides (PDF)]

@@ -2,7 +2,7 @@
 = Week 1: Variables, storing data, and simple plots
 This week's assignment will be lighter than the average assignment, it is intended to just get you up and running with Matlab.
 In this assignment, you will play around with storing data in arrays and making some simple plots.\n
-*This assignment is due on Tuesday, Sept. 30th, at 9:30am*
+*This assignment is due on Tuesday, Sept. 29th, at 9:30am*
 
 == (1) Getting MATLAB
 The first major assignment you have for this week is to get your hands on a copy of Matlab! You can see instructions on how to do so [week0.html here]. We strongly recommend having a local copy of Matlab installed, as it will be much easier and faster to do your analysis on your local machine rather than accessing Matlab over the network.
@@ -14,13 +14,20 @@ If you anticipate any problems or trouble getting access to Matlab, please let t
 - Get used to some of the commands we used in class: +ls+, +cd+, +clc+, +clear+, +linspace+, the color operator, and basic arithmetic
 - Check out the different plotting options (specifically, note the different colors and markers available) by use the command line +help+ function: +help plot+
 
-== (3) Make plots of the following functions:
+==  (3) Run a script and email in the resulting figure
+Download this .m file:\n
+[files/assignment1/ihaveMATLAB.m Assignment 1 File]\n
+Put it in a directory that you'll be using for assignments in this class.\n
+Run the script by typing ihaveMATLAB in the MATLAB command line. You'll need to make sure the directory containing this file is on your MATLAB path (use the Set Path button under the Home tab)\n
+Save the resulting figure as a .fig file and include it in your homework submission.
+
+== (4) Make plots of the following functions:
 - $y = log(x)$ for values of $x$ ranging from 0 to 10. Use a color other than blue or black for the line.\n
 - $y = sin(t)cos(t)$ using 100 linearly spaced points from 0 to $4\pi$ (use the +linspace+ command, and make sure to use element-wise multiplication +.*+)
 
 /Note: you can save plots by clicking the save icon in the plot window. Save them as a JPG or PNG to import them into other programs./
 
-== (4) Answer the following questions:
+== (5) Answer the following questions:
 - What will be the value of +y+ if you run the following block of code?
 ~~~
 {}{}
@@ -40,4 +47,4 @@ y = (x-min(x))./max(x)
 ~~~
 
 == Submission
-You only need to submit your work for problems 3 and 4. Just make a short document with your plots from question (3) and your answers from question(4). Email this document (preferrably in a PDF format) to the staff mailing list ([nens230-aut1415-staff@lists.stanford.edu]) with +\[Assignment 1\]+ in the subject line.
+You only need to submit the file from problem 3 and your work for problems 4 and 5. Just make a short document with your plots from question (4) and your answers from question (5). Email this document (preferrably in a PDF format) to the staff mailing list ([nens230@gmail.com]) with +\[Assignment 1\]+ in the subject line. Attach the .fig from Question 3 to this email.

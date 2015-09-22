@@ -6,14 +6,18 @@
 In every lecture, you may find it helpful to bring a laptop with MATLAB installed so that you can follow along. In addition, we will be doing a number of in-class labs that will require you to work on your own machine. Let the instructors know if this is going to be a problem.
 
 == Software Versions
-MATLAB is updated twice a year, and the latest version is R2013b. Fortunately, MATLAB code, data, and figures are compatible across a range of versions. For this course, any reasonably recent version from the last five years will suffice; if you’re using a version that’s on the older side, there’s a chance that some function or feature we suggest you use will be missing or won’t work as expected, but if this happens we’ll work around that. In short, get the most recent version of MATLAB you can but don’t sweat it.
+MATLAB is updated twice a year, and the latest version is R2015b. Fortunately, MATLAB code, data, and figures are compatible across a range of versions. For this course, any reasonably recent version from the last five years will suffice; if you’re using a version that’s on the older side, there’s a chance that some function or feature we suggest you use will be missing or won’t work as expected, but if this happens we’ll work around that. In short, get the most recent version of MATLAB you can but don’t sweat it.
 
 The core MATLAB software is also augmented by a variety of extensions known as /toolboxes/, which are collections of functions useful for a specific purpose (e.g., image processing, financial applications, or neural networks). You won\'t need any special toolboxes for this course, although if necessary we will provide specific functions if the need arises.
 
 == MATLAB requires a paid license
 MATLAB software is not free; it is developed and sold by a company called Mathworks, and runs under license control. This means that when you install MATLAB it will ask you to enter license information, which is done either by entering a string of characters, or by following their prompts to go log into their website and select a license to retrieve. Depending on how you get your MATLAB license, the installation and authentication process will be different. We therefore can’t provide a step-by-step guide, but it’s usually pretty straightforward.
 
-== How to access MATLAB as a Stanford student (or post-doc)
+== How to access MATLAB as a Stanford student (or post-doc/staff)
+~~~
+As a *short-term solution* while you get set up, you can get a free 30-day trial from www.mathworks.com
+~~~
+
 . *Get it from your PI or rotation lab*\n
 You (or your PI/research advisor) can purchase copies of Matlab for (a heavily discounted) price of around \$75 from the [http://stanford.onthehub.com/WebStore/Welcome.aspx Stanford software licensing store]. Additionally, your lab may already have machines with Matlab installed or copies of the software lying around for lab use.
 . *Download it from the Stanford Computational Services and Bioinformatics Facility (CBSF)*\n
@@ -23,6 +27,9 @@ Stanford provides network computing resources for students, and as part of that,
 ~~~
 You can find instructions on how to access the Corn cluster from [https://itservices.stanford.edu/service/sharedcomputing/loggingin Stanford IT Services], and once logged in, there is a guide on how to run Matlab at the [http://www.stanford.edu/group/farmshare/cgi-bin/wiki/index.php/MATLAB FarmShare website].
 ~~~
+
+
+
 We also provide abbreviated instructions here (for Mac/Unix users):
 		.. (Mac OSX only) To use the graphical user interface (GUI), you will need to make sure that you have X11 forwarding set up. I believe that this comes pre-installed on Macs running OS X versions 10.7 and earlier, but if you are running the newest version (10.8 Mountain Lion), you will need to install X11 yourself at the [http://xquartz.macosforge.org/trac/wiki/X112.7.4 XQuartz website].
 		.. First, open up the /Terminal/ application
@@ -35,3 +42,4 @@ We also provide abbreviated instructions here (for Mac/Unix users):
 ~~~
 If all else fails, please contact the course staff! We don\'t want difficulty with accessing Matlab to be the preventing you from taking the course.
 ~~~
+
