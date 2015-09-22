@@ -21,7 +21,7 @@ As a *short-term solution* while you get set up, you can get a free 30-day trial
 . *Get it from your PI or rotation lab*\n
 You (or your PI/research advisor) can purchase copies of Matlab for (a heavily discounted) price of around \$75 from the [http://stanford.onthehub.com/WebStore/Welcome.aspx Stanford software licensing store]. Additionally, your lab may already have machines with Matlab installed or copies of the software lying around for lab use.
 . *Download it from the Stanford Computational Services and Bioinformatics Facility (CBSF)*\n
-If your PI or research lab is part of the "Computational Services and Bioinformatics Facility" (CBSF), you can download Matlab for free from the [https://cmgm3.stanford.edu/software/ CBSF website].
+If your PI or research lab is part of the "Computational Services and Bioinformatics Facility" (CBSF), you can download Matlab for free from the [https://cmgm3.stanford.edu/software/ CBSF website]. /We've been told that you should use a browser other than Chrome/.
 . *Use Stanford's network computing resources (/FarmShare/ and /Corn/)*\n
 Stanford provides network computing resources for students, and as part of that, you have access to a bunch of machines (known as "FarmShare") that run Matlab. The specific group of servers is known as the "Corn" computing cluster - you may hear us use the phrase, "log in to Corn" or "running on Corn" to refer to using these machines.
 ~~~
