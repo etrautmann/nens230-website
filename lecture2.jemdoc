@@ -1,16 +1,11 @@
 # jemdoc: menu{MENU}{lecture2.html}, analytics{UA-44238171-1}, title{nens230 | lecture 2}
-= 9\/30\/13 Lecture 2: Data Manipulation basics
+= 9\/29\/15 Lecture 2: Data Manipulation Basics
 
-In this lecture, we covered basics of data manipulation, slicing arrays, and logical indexing.
+In this lecture, we covered basics of data manipulation, slicing arrays, and logical indexing. We will also cover data import.
 
 == Lecture Slides
 [slides/week2.pdf Link to slides (PDF)]
 
-== Lecture Videos
-Video 2.1) [https://vimeo.com/75288828 Importing data into MATLAB]
-
-Video 2.2) [https://vimeo.com/75470081 Data types]
-
-These tutorials use the following files:
-[files/lecture2/neurons.tif neurons.tif]
-[files/lecture2/stockprices.csv stockprices.csv]
+== Lecture Files
+The in-class demonstration .m script and required files:\n
+[files/lecture2/lecture2demos.zip lecture2demos.zip]\n
