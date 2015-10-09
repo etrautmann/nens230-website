@@ -1,10 +1,7 @@
 # jemdoc: menu{MENU}{lecture3.html}, analytics{UA-44238171-1}, title{nens230 | lecture3}
-= 10\/07\/13 Lecture 3: Logic, loops and control flow
+= 10\/6\/15 Lecture 3: Logic, loops and control flow
 
 In this lecture, we covered branching to control program flow and loops to iterate program chunks.
 
-== Lecture slides
+== Lecture Slides
 [slides/week3.pdf Link to slides (PDF)]
-
-Examples from the lecture can be found here:
-[files/lecture3/examples.zip Lecture 3 examples (zip)]
