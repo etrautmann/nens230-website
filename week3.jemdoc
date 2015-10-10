@@ -2,7 +2,7 @@
 = Week 3: Logic, loops and control flow
 In this assignment, you will analyze fluorescence imaging data using +for+ loops and +if/else+
 branching techniques.\n
-*This assignment is due on Tuesday, 14 Oct at 9:30am*
+*This assignment is due on Thursday, 15 Oct at 11:59pm*
 
 == Files
 The description of the assignment can be found here:
@@ -101,4 +101,4 @@ Email your code and figures (output of the +publish+ command) to the staff maili
 #would have led you back to the +sum+ function, which is the ultimate cause of the problem.
 
 #Please feel free to email the instructors
-#([nens230-aut1415-staff@lists.stanford.edu]) if you have any questions about these concepts.
+#([nens230@gmail.com]) if you have any questions about these concepts.
