@@ -1,14 +1,14 @@
 # jemdoc: menu{MENU}{week5.html}, analytics{UA-44238171-1}, title{nens230 | week5}
-= Week 5: Cell array and struct arrays
-In this assignment, you will write a function and learn to use cell arrays and structure arrays to organize and store complex data.
+= Week 5: MATLAB Programming Best Practices
+In this assignment, you will debug and then improve the clarity, efficiency, and modularity of a function that performs an event-triggered average analysis on electrophysiology data recorded from a salamander retina.
 
 == Files
 The description of the assignment can be found here:
-[files/assignment5/assignment5.pdf Assignment 5 (PDF)]
+[files/assignment5/assignment5_2015.pdf Assignment 5 (PDF)]
 
-You can download a zip archive of the +.mat+ data files you'll need here:
+Download a zip archive of the code and +.mat+ data files you'll need here:
 [files/assignment5/assignment5-files.zip Assignment 5 Files (zip)]
 
 == Submission
-Email your code and figures as a zip archive to the staff mailing list ([nens230-aut1415-staff@lists.stanford.edu]) with +\[Assignment 5\]+ in the subject line.
+Email your code as a zip archive to the staff mailing list ([nens230f@gmail.com]) with +\[Assignment 5\]+ in the subject line.
 

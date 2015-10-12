@@ -30,10 +30,12 @@ Coursework will consist of a weekly programming assignment that will be due at t
    -- 2D and 3D graphs, objects and handles, subplots, displaying images
    -- Assignment 4: Data visualization
 - Week 5 (Tuesday 10\/20/2015) Programming Best Practices
-   -- Tips on writing clean, readable code
-   -- Assignment 5: writing maintainable code
+   -- Tips on writing clean, readable, efficient, modular, and efficient code (style, functions, efficiency) 
+   -- Debugging
+   -- Assignment 5: Improving an Event-Triggered Average Analysis
 - Week 6 (Tuesday 10\/27/2015) Advanced data structures
-   -- Cell arrays, structures, and debugging
+   -- Cell arrays, structures
+   -- Interactive programs
    -- Assignment 6: Neural spike rasters and event histograms
 - Week 7 (Tuesday 11\/3/2015) Probability and Statistics
    -- Basic statistics, parametric and nonparametric hypothesis tests
