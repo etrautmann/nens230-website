@@ -1,6 +1,7 @@
 # jemdoc: menu{MENU}{week5.html}, analytics{UA-44238171-1}, title{nens230 | week5}
 = Week 5: MATLAB Programming Best Practices
-In this assignment, you will debug and then improve the clarity, efficiency, and modularity of a function that performs an event-triggered average analysis on electrophysiology data recorded from a salamander retina.
+In this assignment, you will debug and then improve the clarity, efficiency, and modularity of a function that performs an event-triggered average analysis on electrophysiology data recorded from a salamander retina.\n
+*This assignment is due on Tuesday, Oct. 27th, at 9:30am*
 
 == Files
 The description of the assignment can be found here:
@@ -10,5 +11,5 @@ Download a zip archive of the code and +.mat+ data files you'll need here:
 [files/assignment5/assignment5-files.zip Assignment 5 Files (zip)]
 
 == Submission
-Email your code as a zip archive to the staff mailing list ([nens230f@gmail.com]) with +\[Assignment 5\]+ in the subject line.
+Email your code as a zip archive to the staff mailing list ([nens230@gmail.com]) with +\[Assignment 5\]+ in the subject line.
 

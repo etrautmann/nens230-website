@@ -1,7 +1,11 @@
 # jemdoc: menu{MENU}{lecture5.html}, analytics{UA-44238171-1}, title{nens230 | lecture5}
-= 10\/21\/14 Lecture 5: Cell arrays, struct arrays, and debugging
+= 10\/20\/15 Lecture 5: Best Practices for Coding
 
-In this lecture, we covered several new data types and methods for debugging.
+In this lecture, we covered writing modular code using functions, debugging, measuring and improving code efficiency, and good coding style.
 
 == Lecture slides
 [slides/week5.pdf Link to slides (PDF)]
+
+== Lecture Files
+The in-class demonstration scripts:\n
+[files/lecture2/lecture5demos.zip lecture5demos.zip]\n
