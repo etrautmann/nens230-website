@@ -6,9 +6,11 @@ Welcome to the course website for NENS 230.
 ~~~
 
 == Announcements
+~~~
+There was a slight bug in the originally posted Assignment 5, in that it actually ran successfully (i.e. the bug was missing). This has now been corrected (bug is back!). If you downloaded the assignment already, then you can see where the bug was fixed -- lucky you. Sorry about that! The rest of the assignment (fixing style and efficiency) was and remains as it should be.
+~~~
 - Fifth lecture and assignment are up!  
 - Assignment 5 is due Tuesday, 10/27
-- Assignment 4 is due on Tuesday 10/20
 
 
 == Office hours
