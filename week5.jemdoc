@@ -13,3 +13,6 @@ Download a zip archive of the code and +.mat+ data files you'll need here:
 == Submission
 Email your code as a zip archive to the staff mailing list ([nens230@gmail.com]) with +\[Assignment 5\]+ in the subject line.
 
+== Solution
+An example of a clear, fast implementation of the event-triggered average:
+[files/assignment5/hw5solution.zip Assignment 5 Solution (zip)]
