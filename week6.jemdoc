@@ -1,7 +1,6 @@
 # jemdoc: menu{MENU}{week6.html}, analytics{UA-44238171-1}, title{nens230 | week6}
-= Week 6: Software best practices
-In this assignment, you will learn to read and refactor someone else's code, learn to find
-bugs in inherited code, and develop your best practices-fu in writing a nice plotting function.
+= Week 6: Cell arrays and Struct arrays
+In this assignment, you'll learn to use cell arrays and structure arrays, some of the most useful data structures for organizing complex data in Matlab.  In addition, you'll pratice using graphics handles for plotting.
 
 == Files
 The description of the assignment can be found here:
@@ -11,5 +10,5 @@ You can download a zip archive of the +.mat+ data files you'll need here:
 [files/assignment6/assignment6-files.zip Assignment 6 Files (zip)]
 
 == Submission
-Email your code and figures as a zip archive to the staff mailing list ([nens230-aut1415-staff@lists.stanford.edu]) with +\[Assignment 6\]+ in the subject line.
+Email your code and figures as a zip archive to the staff mailing list ([nens230@gmail.com]) with +\[Assignment 6\]+ in the subject line.
 

@@ -1,13 +1,11 @@
 # jemdoc: menu{MENU}{lecture6.html}, analytics{UA-44238171-1}, title{nens230 | lecture6}
-= 10\/28\/14 Lecture 6: Software best practices
+= 10\/27\/15 Lecture 6: Advanced data structures
 
-In this lecture, we'll talk about some of the most common and important best
-practices for writing clean, efficient, and maintainable code.
+In this lecture, we'll talk about cell arrays and struct arrays, two incredibly usefull and important data structures in Matlab that make it easy to organize complex data.
 
 == Lecture slides
 [slides/week6.pdf Link to slides (PDF)]
 
 == Lecture files
-An example of poorly-written code can be found [files/lecture6/tree_obfuscated.m here]. 
-A cleaned up version is [files/lecture6/tree_clean.m here].
-You'll also need [files/lecture6/lengthenNode.m this helper function].
+Demo code for this week's lecture can be found [files/lecture6/lecture6_demos.zip here].
+
