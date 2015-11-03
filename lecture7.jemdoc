@@ -1,10 +1,10 @@
 # jemdoc: menu{MENU}{lecture7.html}, analytics{UA-44238171-1}, title{nens230 | lecture7}
-= 11\/4\/14 Lecture 7: Signal and Image Processing
+= 11\/3\/15 Lecture 7: Statistics and Hypothesis Testing
 
-In this lecture, we'll talk about the basics of signal and image processing: how to visualize signals in the time and frequency domains, filter 1D signals and 2D images, and read and write audio files.
+In this lecture, we'll talk about the basics of using statistical functions in MATLAB, and go over hypothesis testing.
 
 == Lecture slides
 [slides/week7.pdf Link to slides (PDF)]
 
 == Lecture files
-[files/lecture7/week7-files.zip Lecture files (zip)]
+[files/lecture7/week7_demos.zip MATLAB statistics demos (zip)]

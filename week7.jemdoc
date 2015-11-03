@@ -1,6 +1,6 @@
 # jemdoc: menu{MENU}{week7.html}, analytics{UA-44238171-1}, title{nens230 | week7}
-= Week 7: Signal and Image Analysis
-In this assignment, you will with some imaging, EEG, and EKG data to extract information from real world signals.
+= Week 7: Statistics and Hypothesis Testing
+In this assignment, you will complete a MATLAB-statistics tutorial, as well as perform some hypothesis testing analysis of behavioral data.
 
 == Files
 The description of the assignment can be found here:
@@ -10,5 +10,5 @@ You can download a zip archive of the +.mat+ data files you'll need here:
 [files/assignment7/assignment7-files.zip Assignment 7 Files (zip)]
 
 == Submission
-Email your code and figures as a zip archive to the staff mailing list ([nens230-aut1415-staff@lists.stanford.edu]) with +\[Assignment 7\]+ in the subject line.
+Email your code and figures as a zip archive to the staff mailing list ([nens230@gmail.com]) with +\[Assignment 7\]+ in the subject line.
 
