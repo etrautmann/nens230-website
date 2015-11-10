@@ -10,7 +10,7 @@ Lectures
     lecture 5: functions, best practices, and debugging [lecture5.html]
  	lecture 6: more advanced data structures		[lecture6.html]
 	lecture 7: statistics and hypothesis testing		[lecture7.html]
-#    lecture 8: statistics and dimensionality reduction      [lecture8.html]
+    lecture 8: signal and image processing      [lecture8.html]
 #	lecture 9: regression and curve fitting		[lecture9.html]
 #	lecture 10: wrap-up and version control		[lecture10.html]
 
@@ -23,7 +23,7 @@ Assignments
     week 5: improving bad code [week5.html]
     week 6: cell arrays and struct arrays [week6.html]
     week 7: hypothesis testing [week7.html]
-#    week 8: statistics and dimensionality reduction      [week8.html]
+    week 8: signal and image processing      [week8.html]
 
 Final Project
 #  Final Project   [finalproject.html]

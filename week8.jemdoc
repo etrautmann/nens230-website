@@ -1,6 +1,6 @@
 # jemdoc: menu{MENU}{week8.html}, analytics{UA-44238171-1}, title{nens230 | week8}
-= Week 8: Statistics and Dimensionality Reduction
-In this assignment, you will work with hypothesis testing on behavioral data and perform dimensionality reduction on high-dimensional neural data.
+= Week 8: Signal and Image Processing
+In this assignment, you will work with the concepts we covered in class to perform simple signal and image processing.  
 
 == Files
 The description of the assignment can be found here:
@@ -10,5 +10,5 @@ You can download a zip archive of the +.mat+ data files you'll need here:
 [files/assignment8/assignment8-files.zip Assignment 8 Files (zip)]
 
 == Submission
-Email your code and figures as a zip archive to the staff mailing list ([nens230-aut1415-staff@lists.stanford.edu]) with +\[Assignment 8\]+ in the subject line.
+Email your code and figures as a zip archive to the staff mailing list ([nens230@gmail.com]) with +\[Assignment 8\]+ in the subject line.
 
